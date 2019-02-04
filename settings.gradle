@@ -1,0 +1,25 @@
+
+// rootProject.name = 'opencv_samples'
+
+// def opencvsdk='../'
+def opencvsdk='./sdk'
+//def opencvsdk='/<path to OpenCV-android-sdk>'
+//println opencvsdk
+include ':opencv'
+project(':opencv').projectDir = new File(opencvsdk)
+
+include ':samples:15-puzzle'
+
+include ':samples:face-detection'
+
+include ':samples:image-manipulations'
+
+include ':samples:camera-calibration'
+
+include ':samples:color-blob-detection'
+
+include ':samples:tutorial-1-camerapreview'
+
+include ':samples:tutorial-2-mixedprocessing'
+
+include ':samples:tutorial-3-cameracontrol'
