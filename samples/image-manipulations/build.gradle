@@ -27,5 +27,6 @@ android {
 
 dependencies {
     //implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':opencv')
+//    implementation project(':opencv')
+    implementation 'com.github.hannesa2:openCV-github-sample:1.0'
 }
